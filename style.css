@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0e0d0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 2rem;
+    background: #E0D0F0;
+    border-bottom: 3px solid #5F4ED0;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+    height: auto;
+}
+
+nav {
+    background: #5F4ED0;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #f0e0d0;
+}
+
+main {
+    padding: 3rem;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #5F4ED0;
+}
+
+.banner p {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #5F4ED0;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+article a {
+    color: #d06050;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+.content-grid {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.content-grid article {
+    flex: 1;
+    background: white;
+    padding: 1.5rem;
+    border: 2px solid #5F4ED0;
+    border-radius: 8px;
+}
+
+.content-grid h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #5F4ED0;
+    border-bottom: 3px solid #d06050;
+    display: inline-block;
+}
+
+.video-container {
+    margin: 1rem 0;
+    border: 1px solid #E0D0F0;
+}
+
+footer {
+    display: flex;
+    padding: 2rem;
+    background: #5F4ED0;
+    color: white;
+    align-items: center;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-copyright {
+    flex: 1;
+    text-align: right;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .content-grid {
+        flex-direction: column;
+    }
+}
