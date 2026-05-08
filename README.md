@@ -7,6 +7,7 @@ This project was developed as part of the **Meta HTML and CSS in depth** course.
 ## Project Overview
 Hair Day Salon is designed to provide a "treat yourself" experience. The website highlights the salon's services, team, and booking information, featuring:
 - A responsive layout using HTML5 and CSS3.
+- Semantic HTML to improve accessibility for screen readers & Search Engine Optimization.
 - Custom typography and imagery.
 - Embedded video content for hair styling tutorials.
 - Clear call-to-action for booking appointments.
